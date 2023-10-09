@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+ } 
+ .header {
+ background-color: #3796c9;
+ margin-top: 0px;
+ padding: 30px 24px;
+ font-family: 'Roboto', sans-serif;
+ text-align: left;
+ font-size: 46px;
+ color:#ffff;
+ 
+   
+   }
+   .navbar {
+     background-color: #333;
+     font-size: 16px;
+     color: #f2f2f2;
+     height: 42px;
+    
+     }
+ .navbar-list-item{
+ display: inline-block;
+ font-weight: bolder;
+ text-align: center;
+ padding-top: 15px;
+ padding-right: 32px;
+ padding-bottom: 15px;
+ }
+
+ .navbar-list-item a{
+   text-decoration: none;
+   color: #f2f2f2;
+   font-family:Arial;
+   font-size: 16px;
+}
+ ul{
+   margin-top: 0px;
+   padding-left: 25px;
+ }
+ .img {
+  float: right;
+  padding: 10px;
+    
+    }
+  .news-container {
+  background-color: white;
+  width: 42%;
+  border: 1px solid lightgray;
+  margin: 24px 50px;
+ 
+  }
+  .news-description-list::before {
+       content: "-";
+     }
+     .news-description-list{
+       list-style: none;
+       padding-left : 15px;
+       font-family:'Segoe UI';
+     font-size: 15px;
+     font-weight: 500;
+       padding-top: 20px;
+ 
+      }
+ .news {
+ 
+  height: 2px;
+  display: block;
+  font-family:'Segoe UI';
+  margin: 7px !important;
+  font-size: 18px;
+ 
+ }
+ .news-description{
+   padding-left:5px
+ }
+   .welcome{
+   margin-left: 50px;
+   width: 65vw;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   word-break: break-word;
+  
+   }
+   .Welcome-text {
+     font-family: 'Segoe UI';
+     font-size: 21px;
+     line-height: 30px;
+     padding-top: 24px;
+ }
+   .content {
+     margin-top: 20px;
+     font-family:'Segoe UI';
+     font-size: 15px;
+     font-weight: 500;
+    }
+ 
